@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tribute to Kamarajar</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {box-sizing: border-box}
+    .mySlides1, .mySlides2 {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    </style>
+    
+</head>
+<body>
+        
+    <main>
+        <header>
+                <h1 style="color: rgb(184, 29, 29);text-align: center;">Kumaraswamy Kamaraj</h1>
+                <p style="text-align: center;">A Veteran INC leader and freedom fighter</p>
+        </header>
+        
+        <div class="slideshow-container">
+            <div class="mySlides1">
+              <img src="https://qph.cf2.quoracdn.net/main-qimg-2439fd08c24e42916876ec4d305fc242-lq" style="width:100%">
+            </div>
+          
+            <div class="mySlides1">
+              <img src="https://tamil-desiyam.com/wp-content/uploads/2018/06/kamarajar.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides1">
+              <img src="https://qph.cf2.quoracdn.net/main-qimg-f5eb7191f7ab0c468208b56327be8a0d-lq" style="width:100%">
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
+          <script>
+            let slideIndex = [1,1];
+            let slideId = ["mySlides1", "mySlides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+            
+            function plusSlides(n, no) {
+              showSlides(slideIndex[no] += n, no);
+            }
+            
+            function showSlides(n, no) {
+              let i;
+              let x = document.getElementsByClassName(slideId[no]);
+              if (n > x.length) {slideIndex[no] = 1}    
+              if (n < 1) {slideIndex[no] = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex[no]-1].style.display = "block";  
+            }
+            </script>
+        <section id="content">
+                <h2 style="color: darkgreen;">Kamarajar's journey</h2>
+                <ul>
+                        <li>
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Birth</h3> -
+                                K Kamaraj was born on 15th July 1903,
+                                in virudhunagar.
+                                His father's name is Kumaraswamy Nadar and mother's name is Sivagami Ammal.
+                                </p>
+
+                        </li>
+                        <li>
+
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Education</h3> -
+                                Kamaraj had only a few years of schooling. 
+                                From the age of twelve, he started working as a shop assistant to support his family.
+                                </p>
+                        </li>
+                        <li>
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Turning point of his life</h3> -
+                                He was fifteen when the Jallianwala Bagh massacre happened.That was a turning point in his life.<br/><br/>
+                                -In 1920, aged eighteen, 
+                                he joined the Indian National Congress to fight foreign rule and liberate the country.<br/><br/>
+                                -He organized public meetings of the INC at Virudhunagar for the Congress party. He met Mahatma Gandhi for the first time on 21st September 1921 during Gandhi’s public meeting.<br/><br/>
+                                Kamaraj became <b>an enthusiastic worker for the Congress Party and became a great organizer.</b>    
+                            </p>
+                        </li>
+                        <li>
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Partcipated Events & went to jail</h3> -
+                                He took part in the Non-Cooperation Movement, Nagpur Flag Satyagraha and other important events.<br/><br/>
+                                -He was imprisoned for two years in 1930 for participating in the Salt Satyagraha at Vedaranyam led by C Rajagopalachari.<br/><br/>
+                                -He was again arrested for a year in 1932. In the 1937 provincial elections, he stood for elections and won from the Sattur constituency.<br/><br/>
+                                </p>
+                                <p>
+                                    He later resigned because of his belief in the principle, <b>“One should not accept any post to which one could not do full justice.”</b>
+                                </p>
+                        <li>
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Quit India Movement</h3> -
+                                In 1942, he was once again arrested for participating in the Quit India Movement. After India became independent, he was in the Congress Working Committee from 1947 to 1969.
+                                </p>
+                        </li>
+                        <li>
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Political Jounery Of Karamveerar Kamarajar</h3> -
+                                He was a member of the Constituent Assembly of India and then a Member of Parliament in 1952.
+                                </p>
+                                <p>
+                                    -In 1954, he became the <b>Chief Minister of Madras State (now Tamil Nadu)</b>. His administration was considered good and efficient<br/><br/>
+                                    -He introduced the brilliant concept of mid-day meals in schools to provide free meals to school children hailing from economically backward families.<br/><br/>
+                                    -His government is credited with increasing the number of schools in Tamil Nadu.
+                                </p>
+                                <p>
+                                    -Kamaraj became the CM for two more consecutive terms until 1963. That year, 
+                                    he resigned and asked many top Congress leaders to resign from their ministerial posts 
+                                    because there was a need to remove the lure of power in the minds of Congressmen. This came to be called the Kamaraj Plan.<br/><br/>
+                                     
+                                </p>
+                                
+                        </li>
+                        <li>
+                                <p>
+                                <h3 style="color: rgb(184, 29, 29);">Final Years</h3> -
+                                    Kamaraj was elected the President of the INC in 1963.
+                                <p>
+                                   - After Jawaharlal Nehru’s death, he was instrumental in bringing Lal Bahadur Shastri to the post of the country’s Prime Minister. He also played a big part in bringing Indira Gandhi to the same post.
+                                </p>
+                                <p>
+                                    -Kamaraj died on 2nd October 1975 aged 72 in Chennai.
+                                </p>
+                        </li>
+                        <li>
+                            <p>
+                                <h3 style="color: rgb(184, 29, 29);">Honour of kamarajar</h3>-
+                                
+                               In 1976, he was posthumously awarded Bharat Ratna, India's highest civilian honor.<br/><br/>
+                               - He is also called ‘Kalvi Thanthai’, a phrase in Tamil that translates to ‘Father of Education’.<br/><br/>
+                               -In 2004, the Government of India issued a commemorative coin of ₹ 100 and ₹ 5 denomination to mark the centenary celebrations of him. <br/><br/>
+                               -Terminal-1 of Chennai International Airport is named "Kamaraj Terminal".
+                            </p>
+                        </li>
+                </ul>
+        </section>
+
+        <footer>
+                <h2>If you have time, you should read more about this incredible human being on his <a
+                                href="https://en.wikipedia.org/wiki/K._Kamaraj">Wikipedia entry</a></h2>
+
+        </footer>
+</main>
+
+</body>
+</html>
